@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAC33A9F1E83A916003EA489 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC33A9E1E83A916003EA489 /* PlayerCell.swift */; };
 		EAFA8FEE1E82735F00A53EA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA8FED1E82735F00A53EA6 /* AppDelegate.swift */; };
 		EAFA8FF01E82735F00A53EA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA8FEF1E82735F00A53EA6 /* ViewController.swift */; };
 		EAFA8FF31E82735F00A53EA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFA8FF11E82735F00A53EA6 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EAC33A9E1E83A916003EA489 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 		EAFA8FEA1E82735F00A53EA6 /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFA8FED1E82735F00A53EA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAFA8FEF1E82735F00A53EA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				EAFA8FEF1E82735F00A53EA6 /* ViewController.swift */,
 				EAFA8FFF1E82802D00A53EA6 /* PlayersViewController.swift */,
 				EAFA8FF11E82735F00A53EA6 /* Main.storyboard */,
+				EAC33A9E1E83A916003EA489 /* PlayerCell.swift */,
 				EAFA90011E8280A500A53EA6 /* Player.swift */,
 				EAFA90031E8281BE00A53EA6 /* SampleData.swift */,
 				EAFA8FF41E82735F00A53EA6 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC33A9F1E83A916003EA489 /* PlayerCell.swift in Sources */,
 				EAFA90021E8280A500A53EA6 /* Player.swift in Sources */,
 				EAFA8FF01E82735F00A53EA6 /* ViewController.swift in Sources */,
 				EAFA8FEE1E82735F00A53EA6 /* AppDelegate.swift in Sources */,
@@ -312,6 +316,7 @@
 				EAFA8FFE1E82735F00A53EA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
